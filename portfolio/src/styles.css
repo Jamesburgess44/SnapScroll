@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 91vh;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  .img-box {
+    scroll-snap-align: start;
+    height: 92vh;
+    width: 100vw;
+  }
+  @media (max-width: 600px) {
+    .img {
+      height: 60vh;
+      width: 80vw;
+    }
+  }
+  .welcome{
+    color: white;
+    background-color: black;
+    height: 92vh;
+    width: 100vw;
+  }
+  .photography{
+    color: white;
+    background-color:blue;
+    height: 92vh;
+    width: 100vw;
+  }
+  .design{
+    color: white;
+    background-color:magenta;
+    height: 92vh;
+    width: 100vw;
+  }
+  .studyCases{
+    color: white;
+    background-color:mediumaquamarine;
+    height: 92vh;
+    width: 100vw;
+  }
+  .footer{
+    color: white;
+    background-color: green;
+    height: 92vh;
+    width: 100vw;
+  }
